@@ -3,11 +3,13 @@
 # Auto
 sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT=""/GRUB_CMDLINE_LINUX_DEFAULT="quiet pci=noaer"/g' /etc/default/grub
 cat /etc/default/grub
+update-grub
+update-grub2
+cat /proc/cmdline
 
 # Manual
 # Change GRUB_CMDLINE_LINUX_DEFAULT="quiet pci=noaer" (this turns off Advance Error Reporting)
 # nano etc/default/grub
-# update-grub2
 
 # This fucks it up...
 # update-initramfs -u
