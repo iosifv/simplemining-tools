@@ -1,1 +1,3 @@
-alias show-gpus='lspci -nnk | grep -i VGA -A2'
+alias show-aliases='amdmeminfo | htop | nmon | glances | bottle | sensors | show-gpus |'
+
+alias show-gpus='lspci -nnkq | grep -i VGA -A2'
