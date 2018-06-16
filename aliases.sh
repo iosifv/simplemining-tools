@@ -1,5 +1,5 @@
 alias show-help='echo "
-TOOLS: amdmeminfo | htop | nmon | glances | bottle | sensors | dmesg
+TOOLS: amdmeminfo | htop | nmon | glances | sensors | dmesg
 
 ALIAS: show-gpus | show-motherboard | simple
 
@@ -13,4 +13,4 @@ alias log-sys='multitail /var/log/syslog'
 alias log-last-boot='dmesg'
 alias log-last-boot-tail='dmesg | tail -20'
 alias log-miner='cd /var/tmp/miner'
-alias simple='cd /home/miner/simplemining-tools'
+alias simple='cd /home/miner/simplemining-tools/'
