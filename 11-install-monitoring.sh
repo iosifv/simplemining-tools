@@ -1,10 +1,10 @@
-apt-get update
-apt-get install htop
-apt-get install nmon && export NMON=mndc
-apt-get install multitail
+sudo apt-get update
+sudo apt-get install htop
+sudo apt-get install nmon && export NMON=mndc
+sudo apt-get install multitail
 
 # Install Glances
 # usage: glances, glances -w
-apt-get install python-pip
-pip install glances
-pip install bottle
+sudo apt-get install python-pip
+sudo pip install glances
+sudo pip install bottle
